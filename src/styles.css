@@ -1,0 +1,57 @@
+html {
+  box-sizing: border-box;
+}
+
+body {
+  background: url(https://i.pinimg.com/originals/8b/89/38/8b8938bc206d9b06cb669c5e5e01f8a0.png);
+}
+
+.country-section {
+  padding-top: 50px;
+  font-size: 25px;
+  color: #ffffffd9;
+}
+
+.input {
+  display: block;
+  margin: auto;
+  margin-bottom: 30px;
+  width: 300px;
+  height: 25px;
+  font-size: 25px;
+  color: #ffffffd9;
+  background: rgb(158 108 108 / 50%);
+}
+
+.country-description-container {
+  display: flex;
+}
+.country-flag-img {
+  width: 250px;
+  display: block;
+}
+.country-flag-box {
+  align-self: center;
+  padding-left: 50px;
+}
+
+.country-box {
+  inline-size: max-content;
+  margin: auto;
+}
+
+.country-name {
+  text-align: center;
+}
+.country-box {
+  background: rgb(0 0 0 / 50%);
+}
+.country-box-card {
+  padding: 30px;
+}
+.country-list {
+  padding: 30px;
+}
+.country-item {
+  margin-top: 15px;
+}
