@@ -15,6 +15,9 @@ const getListOfCountries = () => {
 
   return fetch(url)
     .then(country => {
+      if (country.status === 404) {
+        throw country;
+      }
       return country.json();
     })
     .then(renderCountryCard)
